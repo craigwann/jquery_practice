@@ -1,9 +1,8 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
 p {
-  cursor: pointer;
   color: #464646;
 }
 

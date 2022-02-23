@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  <script src="js/scripts.js"></script>
+  <link href="css/stylesColor.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
   <title>HTML help</title>
 </head>
+
 <body>
   <div class="container">
-    <h1>HTML help</h1>
+    <h1>The Walrus (Odobenus rosmarus)</h1>
+    <p>The Walrus is a large flippered marine mammal with a discontinuous distribution about the North Pole in the
+      Arctic Ocean and subarctic seas of the Northern Hemisphere. The walrus is the only living species in the family
+      Odobenidae and genus Odobenus. This species is subdivided into two subspecies:[2] the Atlantic walrus (O. r.
+      rosmarus), which lives in the Atlantic Ocean, and the Pacific walrus (O. r. divergens), which lives in the Pacific
+      Ocean.</p>
+    <div id="walrus-hidden">
+      <p>Walrus image <span class="clickable"><strong>Click here</strong></span> to see the walrus.</p>
+    </div>
 
-    <p>This is a very special page. If you git click somewhere, it will tell you what type of HTML element you clicked on.</p>
-
-    <p>Look at this cute walrus!</p>
-    <img src="img/walrus.jpg">
+    <div id="walrus-showing">
+      <p>What a tusky chonker! <span class="clickable"><strong>Click here</strong></span> to hide him again</p>
+      <img src="img/walrus.jpg">
+    </div>
   </div>
-
 </body>
-</html> 
+
+</html>
